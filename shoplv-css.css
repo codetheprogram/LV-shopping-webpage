@@ -1,0 +1,1358 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: blue;
+}
+
+#web-head{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+}
+#head-logo{
+    position: absolute;
+    top: 15px;
+}
+#head{
+    color: #2f2fa2;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+}
+#task-bar{
+    position: absolute;
+    padding: 10px;
+    top: 7%;
+    left: 50%;
+    transform: translate(50%, -50%);
+    margin: auto;
+}
+.task{
+    opacity: 0;
+    color: white;
+    border: 0;
+    background-color: transparent;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    display: inline;
+    transition: 1s;
+    margin: -20px;
+}
+.task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: 7%;
+    left: 50%;
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+    color: white;
+    background-color: transparent;
+    font-family: 'Righteous', cursive;
+    font-size: 17px;
+    display: inline;
+    transition: 1s;
+    margin: 10px;
+}
+#img-task{
+    float: right;
+    position: absolute;
+    padding: 10px;
+    top: 7%;
+    left: 88%;
+    transform: translateY(-50%);
+    transition: 1s;
+    margin: auto;
+    
+}
+#img-task:hover{
+    transform: translateY(-50%) rotate(90deg);
+}
+
+/* Style for the slider container */
+    .slider-container {
+      max-width: 100%;
+      position: relative;
+    }
+    
+    /* Style for the slider */
+    .slider {
+      width: 100%;
+        
+    }
+    
+    /* Style for the slide */
+    .slide {
+      width: 100%;
+      transition: transform 0.5s ease-in-out;
+    }
+    
+    /* Style for the images */
+    .slide img {
+      width: 100%;
+        transform: translateY(-1.4%);
+      height: 665.8px;
+    }
+      #A{
+          position: fixed;
+          top: 0%;
+      }
+      #B{
+          position: fixed;
+          top: 0%;
+      }
+      #C{
+          position: fixed;
+          top: 0%;
+      }
+      #D{
+          position: fixed;
+          top: 0%;
+      }
+       #E{
+          position: fixed;
+          top: 0%;
+      }
+
+
+/* Style for the slider container */
+    .slider-container-A {
+      position: relative;
+    }
+    
+    /* Style for the slider */
+    .slider-A {
+      width: 40%;
+    }
+    
+    /* Style for the slide */
+    .slideA {
+      width: 40%;
+      transition: transform 0.5s ease-in-out;
+        position: fixed;
+    top: 35%;
+        left: 20%;
+    }
+    
+    /* Style for the images */
+    .slideA p {
+        transform: translateY(-1.4%);
+    }
+    .slideA button {
+        transform: translateY(-1.4%);
+    }
+#card-A{
+    width: 100%;
+    height: 280px;
+}
+#card-A-a{
+    float: right;
+    background-color: #0000ca;
+    width: 60%;
+    height: 100%;
+    animation: slide-A-a 1s ease-in-out;
+}
+#card-A-b{
+    float: left;
+    background-color: whitesmoke;
+    width: 40%;
+    height: 100%;
+    animation: slide-A-b 1s ease-in-out;
+}
+@keyframes slide-A-a{
+    from{
+        width: 40%;
+    }
+    to{
+        width: 60%;
+    }
+}
+@keyframes slide-A-b{
+    from{
+        width: 60%;
+    }
+    to{
+        width: 40%;
+    }
+}
+#head-A{
+    color: #000080;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 70px;
+    left: 6%;
+}
+#p-A{
+    color: #000080;
+    font-size: 250%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 160px;
+    left: 6%;
+}
+#img-A-a{
+    transform: rotate(30deg);
+    position: absolute;
+    margin-left: 5%;
+}
+#img-A-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    margin-left: 14%;
+}
+#img-A-c{
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 24%;
+}
+#img-A-d{
+    transform: rotate(70deg);
+    position: absolute;
+    margin-left: 30%;
+}
+#img-A-e{
+    transform: rotate(120deg);
+    position: absolute;
+    margin-left: 36%;
+}
+
+#card-B{
+    width: 100%;
+    height: 280px;
+}
+#card-B-a{
+    float: left;
+    background-color: #ed2350;
+    width: 70%;
+    height: 100%;
+    animation: slide-B-a 1s ease-in-out;
+}
+#card-B-b{
+    float: right;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 100%;
+    animation: slide-B-b 1s ease-in-out;
+}
+@keyframes slide-B-a{
+    from{
+        width: 30%;
+    }
+    to{
+        width: 70%;
+    }
+}
+@keyframes slide-B-b{
+    from{
+        width: 70%;
+    }
+    to{
+        width: 30%;
+    }
+}
+#head-B{
+    color: #ed2350;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 350px;
+    right: 4%;
+}
+#p-B{
+    color: #ed2350;
+    font-size: 250%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 440px;
+    right: 4%;
+}
+#img-B-a{
+    transform: rotate(30deg);
+    position: absolute;
+    margin-left: 5%;
+}
+#img-B-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    margin-left: 14%;
+}
+#img-B-c{
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 26%;
+}
+#img-B-d{
+    transform: rotate(70deg);
+    position: absolute;
+    margin-left: 40%;
+}
+#img-B-e{
+    transform: rotate(120deg);
+    position: absolute;
+    margin-left: 50%;
+}
+
+#card-C{
+    width: 100%;
+    height: 280px;
+}
+#card-C-a{
+    float: right;
+    background-color: #e50577;
+    width: 65%;
+    height: 100%;
+    animation: slide-C-a 1s ease-in-out;
+}
+#card-C-b{
+     float: left;
+    background-color: whitesmoke;
+    width: 35%;
+    height: 100%;
+    animation: slide-C-b 1s ease-in-out;
+}
+@keyframes slide-C-a{
+    from{
+        width: 35%;
+    }
+    to{
+        width: 65%;
+    }
+}
+@keyframes slide-C-b{
+    from{
+        width: 65%;
+    }
+    to{
+        width: 35%;
+    }
+}
+#head-C{
+    color: #e50577;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 570px;
+    left: 5%;
+}
+#p-C{
+    color: #e50577;
+    font-size: 250%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 670px;
+    left: 5%;
+}
+#img-C-a{
+    transform: rotate(10deg);
+    position: absolute;
+    margin-left: 5%;
+}
+#img-C-b{
+    transform: rotate(10deg);
+    position: absolute;
+    margin-left: 22%;
+}
+#img-C-c{
+    transform: rotate(10deg);
+    position: absolute;
+    margin-left: 36%;
+}
+#img-C-d{
+    transform: rotate(10deg);
+    position: absolute;
+    margin-left: 44%;
+}
+
+
+#card-D{
+    width: 100%;
+    height: 280px;
+}
+#card-D-a{
+    float: left;
+    background-color: #0000ca;
+    width: 62%;
+    height: 100%;
+    animation: slide-D-a 1s ease-in-out;
+}
+#card-D-b{
+     float: right;
+    background-color: whitesmoke;
+    width: 38%;
+    height: 100%;
+    animation: slide-D-b 1s ease-in-out;
+}
+@keyframes slide-D-a{
+    from{
+        width: 38%;
+    }
+    to{
+        width: 62%;
+    }
+}
+@keyframes slide-D-b{
+    from{
+        width: 62%;
+    }
+    to{
+        width: 38%;
+    }
+}
+#head-D{
+    color: #0000ca;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 850px;
+    right: 6%;
+}
+#p-D{
+    color: #0000ca;
+    font-size: 250%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 950px;
+    right: 6%;
+}
+#img-D-a{
+    transform: rotate(30deg);
+    position: absolute;
+    margin-left: 5%;
+}
+#img-D-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    margin-left: 14%;
+}
+#img-D-c{
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 26%;
+}
+#img-D-d{
+    transform: rotate(50deg);
+    position: absolute;
+    margin-left: 40%;
+}
+
+#card-E{
+    width: 100%;
+    height: 280px;
+}
+#card-E-a{
+    float: right;
+    background-color: #F64C72;
+    width: 60%;
+    height: 100%;
+}
+#card-E-b{
+     float: left;
+    background-color: whitesmoke;
+    width: 40%;
+    height: 100%;
+}
+#head-E{
+    color: #F64C72;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 1150px;
+    left: 6%;
+}
+#p-E{
+    color: #F64C72;
+    font-size: 250%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 1250px;
+    left: 6%;
+}
+#img-E-a{
+    transform: rotate(30deg);
+    position: absolute;
+    margin-left: 0%;
+}
+#img-E-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    margin-left: 8%;
+}
+#img-E-c{
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 23%;
+}
+#img-E-d{
+    transform: rotate(30deg);
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 8%;
+}
+#img-E-e{
+    transform: rotate(-20deg);
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 8%;
+}
+
+#card-F{
+    width: 100%;
+    height: 280px;
+}
+#card-F-a{
+    float: left;
+    background-color: #ed2350;
+    width: 70%;
+    height: 100%;
+}
+#card-F-b{
+     float: right;
+    background-color: whitesmoke;
+    width: 30%;
+    height: 100%;
+}
+#head-F{
+    color: #ed2350;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 1430px;
+    right: 2%;
+}
+#p-F{
+    color: #ed2350;
+    font-size: 230%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 1520px;
+    right: 2%;
+}
+#img-F-a{
+    transform: rotate(0deg);
+    position: absolute;
+    margin-left: 0%;
+}
+
+
+#card-G{
+    width: 100%;
+    height: 280px;
+}
+#card-G-a{
+    float: right;
+    background-color: #0000ca;
+    width: 75%;
+    height: 100%;
+}
+#card-G-b{
+     float: left;
+    background-color: whitesmoke;
+    width: 25%;
+    height: 100%;
+}
+#head-G{
+    color: #0000ca;
+    font-size: 400%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 1700px;
+    left: 2%;
+}
+#p-G{
+    color: #0000ca;
+    font-size: 200%;
+    font-family: Gabriola;
+    position: absolute;
+    top: 1800px;
+    left: 2%;
+}
+#img-G-a{
+    transform: rotate(30deg);
+    position: absolute;
+    margin-left: 5%;
+}
+#img-G-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    margin-left: 19%;
+}
+#img-G-c{
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 30%;
+}
+#img-G-d{
+    transform: rotate(40deg);
+    position: absolute;
+    margin-left: 44%;
+}
+#card-H{
+    width: 100%;
+    height: 200px;
+    background-color: #dbdbdb;
+}
+#head-H{
+    font-size: 200%;
+    color: black;
+    margin: auto;
+    align-self: center;
+    text-decoration-line: underline;
+    text-align: center;
+}
+#part-H{
+    font-size: 120%;
+    color: black;
+    margin: auto;
+    align-self: center;
+    width: 20%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+@media only screen and (max-width: 1200px){
+   #img-task{
+    top: 7%;
+       padding: 0;
+       
+   }
+   .task{
+    opacity: 0;
+    display: block;
+    transition: 1s;
+    position: relative;
+    left: 90%;
+     right: 2%;
+    top: 90px;
+    margin: -12%;
+}
+    #task-bar{
+    position: absolute;
+    padding: 10px;
+    top: 90px;
+    left: 90%;
+    right: 12%;
+    transform: translate(100%, -50%);
+    margin: auto;
+}
+.task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: 90px;
+    left: 90%;
+    right: 12%;
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: 90px;
+    left: 90%;
+    right: 12%;
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+     #img-G-d{
+    margin-left: 38%;
+}
+    #img-E-e{
+    margin-left: 25%;
+}
+}
+
+@media only screen and (max-width: 1000px){
+    #card-A-b{
+        width: 0%;
+        margin: auto;
+    align-self: center;
+    text-decoration-line: underline;
+    text-align: center;
+    }
+    #card-B-b{
+        width: 0%;
+    }
+    #card-C-b{
+        width: 0%;
+    }
+    #card-D-b{
+        width: 0%;
+    }
+    #card-E-b{
+        width: 0%;
+    }
+    #card-F-b{
+        width: 0%;
+    }
+    #card-G-b{
+        width: 0%;
+    }
+    #card-A-a{
+        width: 100%;
+        animation: slide-A-a 1s ease-in-out;
+    }
+    #card-B-a{
+        width: 100%;
+        animation: slide-B-a 1s ease-in-out;
+    }
+    #card-C-a{
+        width: 100%;
+        animation: slide-C-a 1s ease-in-out;
+    }
+    #card-D-a{
+        width: 100%;
+        animation: slide-D-a 1s ease-in-out;
+    }
+    #card-E-a{
+        width: 100%;
+    }
+    #card-F-a{
+        width: 100%;
+    }
+    #card-G-a{
+        width: 100%;
+    }
+    @keyframes slide-A-a{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+@keyframes slide-B-a{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+    @keyframes slide-C-a{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+    @keyframes slide-D-a{
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+    #head-A{
+    color: whitesmoke;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+       
+}
+#p-A{
+    color: whitesmoke;
+   text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}
+    #img-A-a{
+    transform: rotate(30deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 5%;
+}
+#img-A-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 14%;
+}
+#img-A-c{
+    transform: rotate(20deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 34%;
+}
+#img-A-d{
+    transform: rotate(70deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 50%;
+}
+#img-A-e{
+    transform: rotate(120deg);
+    position: absolute;
+    width: 200px;
+    margin-left: 56%;
+}
+    #head-B{
+    color: whitesmoke;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+       
+}
+#p-B{
+    color: whitesmoke;
+   text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}
+    #img-B-a{
+    transform: rotate(30deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 5%;
+}
+#img-B-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 14%;
+}
+#img-B-c{
+    transform: rotate(20deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 34%;
+}
+#img-B-d{
+    transform: rotate(70deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 50%;
+}
+#img-B-e{
+    transform: rotate(120deg);
+    position: absolute;
+    width: 200px;
+    margin-left: 50%;
+}
+    #head-C{
+    color: whitesmoke;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+       
+}
+#p-C{
+    color: whitesmoke;
+   text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}
+    #img-C-a{
+    transform: rotate(30deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 5%;
+}
+#img-C-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    width: 0;
+    height:0;
+    margin-left: 0%;
+}
+#img-C-c{
+    transform: rotate(20deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 24%;
+}
+#img-C-d{
+    transform: rotate(50deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+}
+    #head-D{
+    color: deeppink;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+       
+}
+#p-D{
+    color: deeppink;
+   text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}
+    #img-D-a{
+    transform: rotate(30deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 5%;
+}
+#img-D-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 14%;
+}
+#img-D-c{
+    transform: rotate(20deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 34%;
+}
+#img-D-d{
+    transform: rotate(70deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 50%;
+}
+    #head-E{
+    color: whitesmoke;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+       
+}
+#p-E{
+    color: whitesmoke;
+   text-align: center;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+}
+    #img-E-a{
+    transform: rotate(30deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 5%;
+}
+#img-E-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 14%;
+}
+#img-E-c{
+    transform: rotate(20deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 34%;
+}
+#img-E-d{
+    transform: rotate(70deg);
+    position: absolute;
+    width: 250px;
+    margin-left: 60%;
+}
+#img-E-e{
+    transform: rotate(120deg);
+    position: absolute;
+    width: 200px;
+    margin-left: 50%;
+}
+    #img-F-a{
+        width: 100%;
+    }
+    #head-G{
+    color: whitesmoke;
+    margin: auto;
+    align-self: center;
+    text-align: center;
+        margin-left: 5%;
+       
+}
+#p-G{
+    color: whitesmoke;
+   text-align: center;
+    justify-content: center;
+    margin-left: 5%;
+    align-content: center;
+}
+    #img-G-a{
+    transform: rotate(30deg);
+    position: absolute;
+    width: 250px;
+        height: 250px;
+    margin-left: 5%;
+}
+#img-G-b{
+    transform: rotate(-50deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 14%;
+}
+#img-G-c{
+    transform: rotate(20deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 34%;
+}
+#img-G-d{
+    transform: rotate(70deg);
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-left: 50%;
+}
+
+    #img-task{
+        position: absolute;
+        left: 84%;
+  }
+    .task{
+    opacity: 0;
+    display: block;
+    transition: 1s;
+    position: relative;
+    left: 80%;
+    top: 90px;
+    margin: -180%;
+}
+    #task-bar{
+    position: absolute;
+    padding: 10px;
+    top: 90px;
+    left: 80%;
+/*    right: 12%;*/
+    transform: translate(100%, -50%);
+    margin: auto;
+}
+.task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: -20px;
+    left: -20%;
+    height: 20px;        
+/*    right: 12%;*/
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: -20px;
+    left: -20%;
+/*    right: 12%;*/
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+}
+
+@media only screen and (max-width: 800px){
+    #img-task{
+        position: absolute;
+   top: 7%;
+        left: 80%;
+  }
+    .task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: -20px;
+    left: -90%;
+    height: 20px;        
+/*    right: 12%;*/
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: -20px;
+    left: -90%;
+/*    right: 12%;*/
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+    #img-E-d{
+        width: 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    #img-task{
+        position: absolute;
+   top: 7%;
+        left: 85%;
+  }
+    .task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: -20px;
+    left: -170%;
+    height: 20px;        
+/*    right: 12%;*/
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: -20px;
+    left: -170%;
+/*    right: 12%;*/
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+    #img-A-c{
+    margin-left: 18%;
+}
+#img-B-c{
+    margin-left: 18%;
+}
+#img-B-e{
+    margin-left: 20%; 
+}
+#img-C-d{
+    margin-left: 20%; 
+    margin-top: 10%; 
+}
+#img-D-c{
+   margin-left: 18%;
+}
+#img-E-c{
+    margin-left: 18%;
+}
+#img-E-e{
+    margin: 20%;
+}
+#img-G-c{
+    margin-left: 18%;
+}
+}
+
+@media only screen and (max-width: 600px){
+    #head{
+    position: absolute;
+    font-size: 35px;
+}
+#img-A-e{
+    transform: rotate(120deg);
+    position: absolute;
+    top: 15px;
+    margin-left: 26%;
+}
+}
+@media only screen and (max-width: 600px){
+    .task{
+    opacity: 0;
+    display: block;
+    transition: 1s;
+    position: relative;
+    left: 80%;
+    top: 90px;
+    margin: -500%;
+}
+    #task-bar{
+    position: absolute;
+    padding: 10px;
+    top: 90px;
+    left: 80%;
+/*    right: 12%;*/
+    transform: translate(100%, -50%);
+    margin: auto;
+}
+     .task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: -20px;
+    left: -390%;
+    height: 20px;        
+/*    right: 12%;*/
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: -20px;
+    left: -390%;
+/*    right: 12%;*/
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+    #img-A-d{
+    width: 0px;
+}
+#img-B-d{
+    width: 0px;
+}
+#img-B-e{
+    margin-left: 20%; 
+}
+#img-C-d{
+    margin-left: 24%; 
+    margin-top: 10%; 
+}
+#img-D-d{
+    width: 0px;
+}
+#img-E-d{
+    width: 0px;
+}
+#img-E-e{
+    margin: 20%;
+}
+#img-G-d{
+    width: 0px;
+}
+}
+@media only screen and (max-width: 400px){
+    .task{
+    opacity: 0;
+    display: block;
+    transition: 1s;
+    position: relative;
+    left: 80%;
+    top: 90px;
+    margin: -600%;
+}
+    #task-bar{
+    position: absolute;
+    padding: 10px;
+    top: 90px;
+    left: 80%;
+/*    right: 12%;*/
+    transform: translate(100%, -50%);
+    margin: auto;
+}
+     .task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: -20px;
+    left: -390%;
+    height: 20px;        
+/*    right: 12%;*/
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: -20px;
+    left: -390%;
+/*    right: 12%;*/
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+    #img-A-c{
+    width: 0px;
+}
+#img-B-c{
+    width: 0px;
+}
+#img-B-e{
+    margin-left: 20%; 
+}
+#img-C-c{
+    width: 180px; 
+    margin-left: 30%;
+}
+#img-C-d{
+    width: 0px; 
+}
+#img-D-c{
+    width: 0px;
+}
+#img-E-c{
+    width: 0px;
+}
+#img-E-e{
+    margin: 20%;
+}
+#img-G-c{
+    width: 0px;
+}
+    #img-G-b{
+    width: 180px;
+    height: 180px;
+    transform: rotate(30deg);
+        margin-left: 30%;
+        margin-top: 20%;
+}
+   
+}
+@media only screen and (max-width: 350px){
+    #img-A-b{
+    width: 0px;
+}
+#img-B-b{
+    width: 0px;
+}
+#img-B-e{
+    margin-left: 20%; 
+}
+#img-C-c{
+    width: 0px;
+}
+#img-D-b{
+    width: 0px;
+}
+#img-E-b{
+    width: 0px;
+}
+#img-E-e{
+    margin: 15%;
+}
+    #img-G-b{
+    width: 0px;
+}
+}
+   @media only screen and (max-width: 300px){
+    .task{
+    opacity: 0;
+    display: block;
+    transition: 1s;
+    position: relative;
+    left: 80%;
+    top: 90px;
+    margin: -1000%;
+}
+    #task-bar{
+    position: absolute;
+    padding: 10px;
+    top: 90px;
+    left: 80%;
+/*    right: 12%;*/
+    transform: translate(100%, -50%);
+    margin: auto;
+}
+     .task-bar-A{
+    position: absolute;
+    padding: 10px;
+    top: -20px;
+    left: -390%;
+    height: 20px;        
+/*    right: 12%;*/
+    transform: translate(700%, -50%);
+    margin: auto;
+}
+.task-A{
+    opacity: 1;
+position: relative;
+    top: -20px;
+    left: -390%;
+    display: block;
+    transition: 1s;
+    margin: 10px;
+}
+}
